@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./logic.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="btn btn-primary" href="/index.html">Home</a>
+    </div>
+  </nav>
+  
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="text-center">LOGIN</h2>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="mb-3">
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" id="username" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" id="password" class="form-control" required>
+              </div>
+              <div class="text-center">
+                <center><button type="submit" class="btn btn-primary">Log In</button></center>
+              </div>
+            </form>
+            <p class="text-center mt-3">New user? <a href="./signin2.html">Sign up here</a></p>
+            <p><a class="text-center mt-3" href="">Forget password</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+</body>
+</html>
